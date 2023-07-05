@@ -44,7 +44,7 @@ public class ComputerCase {   //Outer Class
     }
   }
 
-  static class Ram {    //Inner Class
+  static class Ram {    //Static Inner Class
     private final String series;
     private final String brand;
     private final boolean heatSink;
