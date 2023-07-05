@@ -19,5 +19,19 @@ public class App {
         Colors: %s
         Area: %f
         %n""", square.description(), square.colors(), square.area(16f));
+
+    Triangle triangle = new Triangle(12.3f) {
+      @Override
+      public String description() {
+        return "The triangle has base and height.";
+      }
+    };
+
+    System.out.printf("""
+        Triangle:
+        Description: %s
+        Colors: %s
+        Area: %f
+        %n""", triangle.description(), triangle.colors(), triangle.area(23.1f));
   }
 }
