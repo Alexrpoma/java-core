@@ -6,5 +6,8 @@ public class App {
     String sound = "Woof";
     String rockyInfo = rocky.showPet(s -> s + "!!", sound);
     System.out.println(rockyInfo);
+
+    Cat cookie = new Cat("cookie", 2);
+    System.out.println(cookie.showPet(s -> s, " Meow!"));
   }
 }
