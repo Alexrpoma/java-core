@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.basic;
 
 public class App {
   public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lambdas;
+package lambdas.basic;
 
 public class Dog {
   private final String name;
