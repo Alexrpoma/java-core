@@ -11,8 +11,8 @@ public class App {
     List<Integer> list = new ArrayList<>(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9));
     Set<Integer> set = new HashSet<>(List.of(0, 1, 2, 3, 4, 5, 6, 7, 8, 9));
 
-    customForEach.forEach(list, e -> System.out.print(e));
+    customForEach.forEach(list, System.out::print);
     System.out.println();
-    customForEach.forEach(set, e -> System.out.print(e));
+    customForEach.forEach(set, System.out::print);
   }
 }
